@@ -38,8 +38,8 @@
     openModal(
       'Get a Free Quote',
       'This will open your email app to send a quote request to:',
-      '<a href="mailto:sarojnagarkoti01@gmail.com">sarojnagarkoti01@gmail.com</a>',
-      'mailto:sarojnagarkoti01@gmail.com?subject=' + encodeURIComponent('Quote Request - Complete Tactile Installation')
+      '<a href="mailto:sales@completetactile.com.au">sales@completetactile.com.au</a>',
+      'mailto:sales@completetactile.com.au?subject=' + encodeURIComponent('Quote Request - Complete Tactile Installation')
     );
   });
 
@@ -142,11 +142,11 @@
         form.style.display = 'none';
         showStatus('success', 'Thank you! Your quote request has been received. We\'ll get back to you shortly.');
       } else {
-        showStatus('error', 'Something went wrong. Please try again or email us directly at sarojnagarkoti01@gmail.com');
+        showStatus('error', 'Something went wrong. Please try again or email us directly at sales@completetactile.com.au');
       }
     })
     .catch(function() {
-      showStatus('error', 'Network error. Please try again or email us directly at sarojnagarkoti01@gmail.com');
+      showStatus('error', 'Network error. Please try again or email us directly at sales@completetactile.com.au');
     });
   });
 })();
